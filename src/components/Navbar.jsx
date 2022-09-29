@@ -9,10 +9,13 @@ const Navbar = () => {
           <a className="px-4 text-lg md:text-2xl hidden md:block" href="/">
             Home
           </a>
-          <a className="px-4 text-lg md:text-2xl hidden md:block" href="#about">
+          <a className="px-4 text-lg md:text-2xl hidden md:block" href="/about">
             About
           </a>
-          <a className="px-4 text-lg md:text-2xl hidden md:block" href="/">
+          <a
+            className="px-4 text-lg md:text-2xl hidden md:block"
+            href="/skills"
+          >
             Skills
           </a>
           <a className="px-4 text-lg md:text-2xl hidden md:block" href="/">
